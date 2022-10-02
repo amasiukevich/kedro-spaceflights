@@ -7,7 +7,6 @@ from kedro.pipeline import Pipeline, node, pipeline
 
 from .nodes import preprocess_companies, preprocess_shuttles, create_model_input_table
 
-# TODO: Add linear regression there
 
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline([
